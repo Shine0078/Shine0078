@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+<title id="title">Samuel - software, support and secure systems</title>
+<desc id="desc">Animated midnight-blue engineering command center, circuit grids and orbiting signal nodes.</desc>
+<defs>
+<linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070c1b"/><stop offset=".5" stop-color="#111939"/><stop offset="1" stop-color="#081d29"/></linearGradient>
+<linearGradient id="electric"><stop stop-color="#61f5d4"/><stop offset=".5" stop-color="#6db7ff"/><stop offset="1" stop-color="#b18aff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#2ac7fa" stop-opacity=".28"/><stop offset="1" stop-color="#2ac7fa" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#56709d" stroke-width=".6" opacity=".24" fill="none"/></pattern>
+<clipPath id="clip"><rect width="1280" height="340" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1280" height="340" fill="url(#space)"/>
+<rect width="1280" height="340" fill="url(#grid)"/>
+<circle cx="975" cy="164" r="240" fill="url(#halo)"/>
+<path d="M0 289H1280" stroke="url(#electric)" opacity=".3"/>
+<path d="M785 0L956 171 1190 33M825 340L983 171 1280 260" fill="none" stroke="#4fcbd0" stroke-width="1.5" opacity=".3"/>
+<g transform="translate(999 166)" fill="none" stroke="url(#electric)">
+<circle r="136" stroke-width="1" stroke-dasharray="5 10" opacity=".75"/>
+<circle r="103" stroke-width="1.5" opacity=".55"/>
+<circle r="72" stroke-width="1" stroke-dasharray="2 7" opacity=".9"/>
+<circle r="42" stroke-width="2" opacity=".85"/>
+<path d="M-151 0H151M0-151V151M-108-108L108 108M108-108L-108 108" opacity=".25"/>
+<circle r="12" fill="#071927" stroke="#62eacf" stroke-width="3"/>
+<circle r="5" fill="#62eacf" stroke="none"><animate attributeName="opacity" values=".25;1;.25" dur="2.8s" repeatCount="indefinite"/></circle>
+<g><circle cx="103" cy="0" r="7" fill="#70bbff" stroke="none"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/></g>
+<g><circle cx="-136" cy="0" r="5" fill="#b18aff" stroke="none"/><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="28s" repeatCount="indefinite"/></g>
+<rect x="-32" y="-32" width="64" height="64" rx="11" fill="#0b1830" stroke="#66e6d8"/>
+<path d="M-16 0l11 11 23-25M-16-14H-5" stroke="#66e6d8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="68" y="63" font-size="17" font-weight="700" fill="#6df4d2" letter-spacing="4">SYSTEM ONLINE  /  SHINE0078</text>
+<text x="63" y="157" font-size="78" font-weight="800" fill="#f3f6ff" letter-spacing="-3">SAMUEL</text>
+<rect x="68" y="174" width="520" height="3" rx="1.5" fill="url(#electric)"/>
+<text x="68" y="221" font-size="26" fill="#cbd8f2" letter-spacing="1.5">I build systems that solve real problems.</text>
+<text x="68" y="263" font-size="19" fill="#8eb0d2">SOFTWARE   /   IT AUTOMATION   /   SECURITY</text>
+<text x="68" y="310" font-size="14" fill="#72b4ad" letter-spacing="2">[ EXPLORE THE WORK BELOW ]</text>
+</g>
+<rect x="18" y="18" width="1244" height="304" rx="14" fill="none" stroke="#628eae" opacity=".25"/>
+</g>
+</svg>
