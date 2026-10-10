@@ -21,6 +21,14 @@ def main() -> int:
     for relative in re.findall(r'''(?:src|href)=["']\./([^"'#?]+)["']''', content):
         if not (ROOT / relative).is_file():
             raise FileNotFoundError(f"Broken relative asset: {relative}")
+    arcade_preview = ROOT / "assets" / "code-runner-preview.svg"
+    if "https://shine0078.github.io/portfolio/arcade/" not in content:
+        raise ValueError("Missing live arcade link in the profile")
+    if "assets/code-runner-preview.svg" not in content:
+        raise ValueError("Missing playable arcade preview in the profile")
+    arcade_root = ET.parse(arcade_preview).getroot()
+    if arcade_root.tag != "{http://www.w3.org/2000/svg}svg":
+        raise ValueError("Arcade preview is not a valid SVG")
     root = ET.parse(BANNER).getroot()
     if root.tag != "{http://www.w3.org/2000/svg}svg":
         raise ValueError("Banner is not a valid SVG")
