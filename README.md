@@ -4,14 +4,14 @@
   <br />
 
   <a href="https://shine0078.github.io/portfolio/arcade/" title="Play Code Runner, an interactive mini game">
-    <img src="./assets/code-runner-preview.svg" width="100%" alt="Animated CODE RUNNER arcade preview. Control a ship, collect glowing crystals and dodge bugs. Click to play the game." />
+    <img src="./assets/code-runner-preview.svg" width="100%" alt="Illustrated retro CODE RUNNER arcade preview with a moving spaceship, golden gems and orange bugs. Click to play the endless game." />
   </a>
 
   <sub>🎮 <a href="https://shine0078.github.io/portfolio/arcade/"><b>Launch the playable arcade →</b></a> · Keyboard, mouse and mobile controls</sub>
 
   <br />
 
-  **A builder's notebook, not a collection of buzzwords.**
+  **Aspiring developer, learning by building one project at a time.**
 
   [![Portfolio](https://img.shields.io/badge/Explore%20the%20portfolio-0c1934?style=for-the-badge&logo=githubpages&logoColor=7ce7d5)](https://shine0078.github.io/portfolio/)
   [![Barcode Studio](https://img.shields.io/badge/Try%20a%20live%20project-0c1934?style=for-the-badge&logo=cloudflare&logoColor=f4ad64)](https://barcode-studio-25b.pages.dev/)
@@ -24,7 +24,7 @@
 
 ### `$ whoami`
 
-I'm **Samuel**, a Computer Programming & Analysis graduate building toward software engineering, IT infrastructure and cloud security. I prefer practical, testable tools: the kind that help people solve problems, work faster or understand complicated systems.
+I'm **Samuel**, an aspiring developer and Computer Programming & Analysis graduate. I'm still learning, exploring software development, IT and cloud security through small projects and hands-on practice. This page is where I share what I'm building, what I'm figuring out, and what I'd like to improve.
 
 ```text
 samuel@engineering:~$ cat focus.txt
@@ -187,7 +187,7 @@ The animated header is an original SVG stored in this repository. All project de
 
 <div align="center">
 
-**Build with purpose. Stay curious. Make the work speak.**
+**Still learning, still building, and always happy to improve.**
 
 [Source code](https://github.com/Shine0078?tab=repositories) · [Portfolio](https://shine0078.github.io/portfolio/) · [GitHub activity](https://github.com/Shine0078?tab=overview)
 
