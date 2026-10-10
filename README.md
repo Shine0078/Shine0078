@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Samuel — software, IT automation and secure systems. Animated circuit-inspired banner." />
+  <img src="./assets/hero.svg" width="100%" alt="Hi, I’m Samuel—an aspiring developer learning through small projects. Illustrated paper-and-ink header with animated doodles, a sticky note and a code editor." />
 
   <br />
 
