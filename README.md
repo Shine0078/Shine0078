@@ -3,13 +3,21 @@
 
   <br />
 
+  <a href="https://shine0078.github.io/portfolio/arcade/" title="Play Code Runner, an interactive mini game">
+    <img src="./assets/code-runner-preview.svg" width="100%" alt="Animated CODE RUNNER arcade preview. Control a ship, collect glowing crystals and dodge bugs. Click to play the game." />
+  </a>
+
+  <sub>🎮 <a href="https://shine0078.github.io/portfolio/arcade/"><b>Launch the playable arcade →</b></a> · Keyboard, mouse and mobile controls</sub>
+
+  <br />
+
   **A builder's notebook, not a collection of buzzwords.**
 
   [![Portfolio](https://img.shields.io/badge/Explore%20the%20portfolio-0c1934?style=for-the-badge&logo=githubpages&logoColor=7ce7d5)](https://shine0078.github.io/portfolio/)
   [![Barcode Studio](https://img.shields.io/badge/Try%20a%20live%20project-0c1934?style=for-the-badge&logo=cloudflare&logoColor=f4ad64)](https://barcode-studio-25b.pages.dev/)
   [![GitHub followers](https://img.shields.io/github/followers/Shine0078?style=for-the-badge&label=People%20following&color=297f7c)](https://github.com/Shine0078?tab=followers)
 
-  [**Projects**](#-selected-builds) · [**My toolkit**](#-toolkit) · [**Engineering notes**](#-under-the-hood) · [**Activity**](#-the-build-log)
+  [**🕹 Play arcade ↗**](https://shine0078.github.io/portfolio/arcade/) · [**Projects**](#-selected-builds) · [**My toolkit**](#-toolkit) · [**Engineering notes**](#-under-the-hood) · [**Activity**](#-the-build-log)
 </div>
 
 ---
