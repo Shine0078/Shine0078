@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="312" viewBox="0 0 1200 312" role="img" aria-labelledby="title desc">
+<title id="title">Play CODE RUNNER — an interactive arcade mini game by SHINE0078</title>
+<desc id="desc">Animated arcade preview of a spaceship dodging red bugs and collecting cyan crystals. Click to play.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1535"/><stop offset=".55" stop-color="#10163c"/><stop offset="1" stop-color="#070f23"/></linearGradient>
+  <linearGradient id="pill"><stop stop-color="#60ebff"/><stop offset="1" stop-color="#b58aff"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#77a4ee" opacity=".2"/></pattern>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect x="720" y="38" width="445" height="238" rx="18"/></clipPath>
+  <style>
+    .ship{animation:ship 3s ease-in-out infinite}.fall{animation:fall 2.9s linear infinite}.second{animation-delay:-1.5s}.bug{animation:fall 3.7s linear infinite;animation-delay:-1.1s}.blink{animation:blink 1.3s step-end infinite}
+    @keyframes ship{0%,100%{transform:translateX(-70px)}50%{transform:translateX(80px)}}
+    @keyframes fall{from{transform:translateY(-95px)}to{transform:translateY(290px)}}
+    @keyframes blink{50%{opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<rect width="1200" height="312" rx="22" fill="url(#bg)"/>
+<rect x="1.5" y="1.5" width="1197" height="309" rx="20.5" fill="none" stroke="#64efff" opacity=".6" stroke-width="3"/>
+<rect width="1200" height="312" rx="22" fill="url(#grid)"/>
+<text x="44" y="53" font-family="Consolas,monospace" font-size="15" font-weight="700" fill="#6ce7ff" letter-spacing="3">[ 01 // FEATURED EXPERIMENT ]</text>
+<text x="44" y="126" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="900" fill="#f4faff">CODE <tspan fill="#7aeaff">RUNNER</tspan><tspan class="blink" fill="#b58aff">_</tspan></text>
+<text x="46" y="160" font-family="Consolas,monospace" font-size="17" fill="#b1c9e8">Dodge bugs. Collect code. Level up.</text>
+<rect x="44" y="188" width="286" height="61" rx="13" fill="url(#pill)"/>
+<text x="72" y="226" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="800" fill="#091329">▶  CLICK TO PLAY</text>
+<text x="350" y="213" font-family="Consolas,monospace" font-size="13" fill="#92adcb">NO INSTALL</text>
+<text x="350" y="231" font-family="Consolas,monospace" font-size="13" fill="#92adcb">100% BROWSER</text>
+<text x="44" y="285" font-family="Consolas,monospace" font-size="13" fill="#6decb0">● LIVE MINI GAME</text>
+<text x="225" y="285" font-family="Consolas,monospace" font-size="13" fill="#8ca9cc">MADE BY SHINE0078</text>
+<g clip-path="url(#clip)">
+  <rect x="720" y="38" width="445" height="238" rx="18" fill="#071126"/>
+  <rect x="720" y="38" width="445" height="238" fill="url(#grid)"/>
+  <path d="M720 222H1165M720 262H1165M790 38V276M860 38V276M930 38V276M1000 38V276M1070 38V276M1140 38V276" stroke="#4970ad" opacity=".35"/>
+  <rect x="720" y="38" width="445" height="44" fill="#0a1636"/>
+  <text x="745" y="66" font-family="Consolas,monospace" font-size="14" fill="#74efff">XP <tspan fill="#fff">080</tspan></text>
+  <text x="935" y="66" font-family="Consolas,monospace" font-size="14" fill="#ff7697">♥ ♥ ♥</text>
+  <text x="1070" y="66" font-family="Consolas,monospace" font-size="14" fill="#a7bbd6">WAVE 02</text>
+  <g class="fall" filter="url(#glow)"><path d="M833 103l14 20-14 20-14-20z" fill="#66eaff" stroke="#dcfdff" stroke-width="2"/></g>
+  <g class="fall second" filter="url(#glow)"><path d="M1075 109l13 19-13 19-13-19z" fill="#6ceaff" stroke="#dcfdff" stroke-width="2"/></g>
+  <g class="bug"><path d="M989 92h21l9 14-9 14h-21l-9-14z" fill="#781f4a" stroke="#ff718e" stroke-width="3"/><path d="M990 103h7m7 0h7" stroke="#ffdbe3" stroke-width="4"/></g>
+  <g class="ship" filter="url(#glow)">
+    <path d="M945 223l-11 27 11-6 11 6z" fill="#6cecff" opacity=".7"/>
+    <path d="M945 179l22 47-12-8-10 5-10-5-12 8z" fill="#1e94d7" stroke="#b5fcff" stroke-width="2"/>
+    <path d="M945 190l7 15-7 6-7-6z" fill="#e7ffff"/>
+  </g>
+  <rect x="720" y="38" width="445" height="238" rx="18" fill="none" stroke="#64efff" stroke-width="2" opacity=".6"/>
+</g>
+</svg>
